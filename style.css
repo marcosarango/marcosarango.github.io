@@ -49,67 +49,18 @@ main{
     text-align: center
 }
 .class_name {
-    text-align: left;
+
+    text-align: center;
+    margin-left: 70px;
 }
 .leccions {
     grid-column: 1/2;
     grid-row: 2/3;
-    text-align: left;
+    text-align: center;
 }
 .last-update {
     color: yellow;
 }
 
-@media (min-width: 820px) {
-	.hero-container {
-		padding: 5rem;
-	}
 
-	.hero-container {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 2rem;
-	}
-
-	.hero-container img {
-		max-width: 100%;
-		display: block;
-	}
-
-	.hero-image {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	main {
-		grid-template-columns: 1fr 1fr;
-		padding: 0 5rem 5rem 5rem;
-    }
-
-@media (min-width: 1200px) {
-	.hero-container {
-		padding: 7rem;
-	}
-
-	.hero-container {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 2rem;
-		align-items: center;
-	}
-
-	h1 {
-		font-size: 3rem;
-	}
-
-	.hero-container img {
-		max-width: 100%;
-		display: block;
-	}
-
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-		padding: 0 7rem 7rem 7rem;
-	}
-
+	
