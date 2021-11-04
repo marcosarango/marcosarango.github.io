@@ -10,7 +10,7 @@ header, main, footer, body {
 header {
 
     
-    background-color: brown;
+    background-color: rgb(179, 30, 30);
     padding: 1.5rem;
     color: aliceblue;
     font-size: x-large;
@@ -19,11 +19,9 @@ header {
 }
  img {
     
-    width: 200px;
-    float: right;
+    width:200px;
+    float:right;
     
-
-
 }
 header picture img {
     width: 200px;
@@ -42,6 +40,9 @@ footer {
 }
 footer a {
     color: rgb(21, 64, 145)
+}
+.footer {
+    font-size: 1em;
 }
 .last-update {
     text-align: center;
