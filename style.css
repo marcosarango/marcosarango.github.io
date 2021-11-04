@@ -67,9 +67,6 @@ main{
     color: yellow;
     padding-left: 1%;
 }
-hr {
-    box-sizing: content-box;
-    height: 0;
-    overflow: visible; 
-}
+
+
 	
