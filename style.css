@@ -39,6 +39,8 @@ footer {
     text-align: center;
     background-color: brown;
     border-radius: 15px;
+    padding: 1% 0;
+    color: white;
     
 }
 .last-update {
@@ -62,7 +64,7 @@ main{
 }
 .last-update {
     color: yellow;
-    font-weight: 200;
+    padding-left: 1%;
 }
 
 
