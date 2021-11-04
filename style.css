@@ -35,13 +35,13 @@ h1 {
 
 }
 footer {
-
+    background-color: rgb(182, 8, 31);
+    border-radius: 25px;
     text-align: center;
-    background-color: brown;
-    border-radius: 15px;
-    padding: 1% 0;
-    color: white;
-    
+    color: rgb(231, 219, 219);
+}
+footer a {
+    color: rgb(21, 64, 145)
 }
 .last-update {
     text-align: center;
