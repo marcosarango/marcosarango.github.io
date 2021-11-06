@@ -36,7 +36,9 @@ footer {
     border-radius: 15px;
     text-align: center;
 }
-
+footer a {
+    color: rgb(221, 226, 231);
+}
 #copyright {
     padding-top: 3px;
     padding-left: 75px;
