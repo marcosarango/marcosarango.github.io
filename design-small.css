@@ -32,13 +32,19 @@ main img {
 }
 
 footer {
-    background-color: rgb(121, 115, 201);
+    background-color: rgb(16, 10, 90);
     border-radius: 15px;
     text-align: center;
+    
 }
-footer a {
+footer p {
+    color: rgb(221, 226, 231);
+
+}
+footer a{
     color: rgb(221, 226, 231);
 }
+
 #copyright {
     padding-top: 3px;
     padding-left: 75px;
