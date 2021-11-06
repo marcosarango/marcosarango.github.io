@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+header {
+    background-color: rgb(84, 81, 221);
+    text-align: center;
+    border-radius: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+
+main {
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    font-size: 1rem;
+    font-family: 'Zen Antique Soft', serif;
+    margin-bottom: 10px;
+}
+
+section {
+    border: 2px solid rgb(101, 75, 214);
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 200px;
+    max-width: 370px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+
+main img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+footer {
+    background-color: rgb(121, 115, 201);
+    border-radius: 15px;
+    text-align: center;
+}
+
+#copyright {
+    padding-top: 3px;
+    padding-left: 75px;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+ section h3 {
+    background-color: rgb(85, 85, 179);
+    color: white;
+    margin-top: 0;
+    padding: .5em;
+    font-size: 1.5em;
+}

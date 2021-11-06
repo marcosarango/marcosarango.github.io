@@ -18,9 +18,9 @@ header {
 
 }
  img {
-    
+    height: auto;
     width:200px;
-    float:right;
+    
     
 }
 header picture img {
@@ -30,6 +30,7 @@ header picture img {
 h1 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    
 
 }
 footer {
@@ -68,5 +69,3 @@ main{
     padding-left: 1%;
 }
 
-
-	

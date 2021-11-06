@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+@media only screen and (min-width: 37.5em) {
+    main {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 10px;
+        max-width: 750px;
+        font-size: 1em;
+    }
+    main section:nth-child(1) {
+        grid-row: 1/2;
+        grid-column: 1/2;
+
+    }
+    main section:nth-child(2) {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    
+    }
+    
+    main section:nth-child(3) {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    }
+
+    
