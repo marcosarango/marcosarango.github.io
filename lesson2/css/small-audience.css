@@ -90,47 +90,4 @@ header img {
 header h2 h3 {
     margin: auto;
 }
-#body-simple {
-	
-	font-size: 19px;
-	font-family: "Sansita", Ubuntu, sans-serif;
-	text-align: center;
 
-}
-#header-sample {
-	font-size: 19px;
-	font-family: "Sansita", Ubuntu, sans-serif;
-	background-color: rgb(187, 218, 238);
-	text-align: center;
-}
-#ul-sample{
-	font-size: 19px;
-	font-family: "Sansita", Ubuntu, sans-serif;
-	background-color: #36454f;
-	text-align: center;
-	color: #fff;
-}
-#id-sample{
-	font-size: 20px;
-	font-family: "Sansita", Ubuntu, sans-serif;
-	background-color: rgb(187, 218, 238);
-	text-align: center;
-	color: black;
-}
-#h2-sample{
-	font-size: 19px;
-	font-family: "Sansita", Ubuntu, sans-serif;
-	
-	text-align: center;
-	color: #536878;
-}
-#color-header-footer{
-	background-color: rgb(187, 218, 238);
-	border: 1px solid #bbb;
-	text-align: center;
-}
-#color-nav-ul {
-	background-color: #36454f;
-	text-align: center;
-	color: #fff;
-}
