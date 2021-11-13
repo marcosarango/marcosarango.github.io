@@ -16,6 +16,7 @@ let lasmodif = new Date(document.lastModified);
 document.getElementById("full-date").textContent = lasmodif
 
 
+////////////////////////////////////////////////////////////
 window.onload = updateBox;
 
 function updateBox(){
