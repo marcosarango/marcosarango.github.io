@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/* not necessary */
+/* bluegrey matter   #637f80 light  #536872  #708090  #536878  #36454f dark */
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+
+nav button {
+    margin: .2rem 2%;
+    background-color:  transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+nav {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3f4c6b+0,3f4c6b+100;Blue+Grey+Flat */
+background: #3f4c6b; /* Old browsers */
+background: -moz-linear-gradient(top,  #3f4c6b 0%, #3f4c6b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #3f4c6b 0%,#3f4c6b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #3f4c6b 0%,#3f4c6b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
+
+    background-color: #aa0000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top: 1px solid rgba(0, 0, 0, 0, 3);
+}
+nav ul li.active a{
+    background-color: rgba(0, 0, 0, 0, 4);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0, 4);
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+nav ul.hide {
+    display: none;
+}
+body{
+	font-size: 20px;
+	font-family: "Sansita", Ubuntu, sans-serif;
+}
+
+/* phone or baseline views **************************/
+header,
+footer {
+	background-color: rgb(187, 218, 238);
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+    border-radius: 10px;
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 900px;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 1.1rem;
+}
+h2 {
+	color: #536878;
+}
+
+
+
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+main article {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+}
+main picture {
+	display: none;
+	margin: 0.5rem;
+}
+
+footer {
+	border-radius: 15px;
+}
+
+header img {
+    
+    width: 200px;
+    height: auto ;
+}
+header h2 h3 {
+    margin: auto;
+}
+.contenedor-one {
+    margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+}
+
+
+
+
+
+header {
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: rgb(8, 8, 8);
+	margin-left: 20px;
+	font-size: .9rem;
+}
