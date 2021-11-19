@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="css_p/large.css">
     <script defer src="/weather/js/date.js"></script>
     <script defer src="/weather/js/menu.js"></script>
+    <script defer src="js/pancake.js"></script>
     
     <title>weatherburg</title>
 </head>
 <body>
-    <div id="pancake">Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+    <div id="pancake">Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</div>
 
     <header>
         
@@ -39,48 +40,59 @@
     </nav>
     <main>
         <h2>Preston</h2>
-        <div class="contenedor-one">
+        <div class="herocontainer">
+            <picture class="heroimg">
+                <source media="(max-width: 510px)" srcset="images/wdd230_image_franklinOriginal.jpg">
+                <source media="(max-width: 939px)" srcset="images/wdd230_image_franklinOriginal.jpg">
+                <source media="(min-width: 940px)" srcset="images/wdd230_image_franklinOriginal.jpg">
+                <img src="images/wdd230_image_franklinOriginal.jpg" 
+                     alt="A photo of beautiful eastern Idaho fields and homes.">
+            </picture>
 
-            <img src="images/tim-dennert-L2aLbzX8zC8-unsplash (1).jpg" alt="">
+            
 
-            <section class="weathersummary">
+            <section class="weather">
                 <h3>Weather Summary</h3>
-                <p>Currently: Fall</p>
-                <p>Hight: 59 F </p>
-                <p>Wind Chill: F</p>
-                <p>Humidity: 50%</p>
-                <p>Wind Speed: 5 mp</p>
-
+                <p class="left">Currently:</p> 
+                <p class="right">Fall</p>
+                <p class="left">Current temp:</p> 
+                <p class="right"><span class="t"></span>°F</p>
+                <p class="left">Wind Chill:</p> 
+                <p class="right"><span class="f"></span></p>
+                <p class="left">Humidity:</p> 
+                <p class="right">20%</p>
+                <p class="left">Wind Speed:</p> 
+                <p class="right"><span class="s">4</span> mph</p>
             </section>
             
         </div>
         <h2>5 day forcast</h2>
         
-        <div class="column">
-            <div class="column-col">
-                <span class="col-head">WEd</span>
-                <img src="images/photo_weather.png" alt="kitten!">
-                <span class="data"> 88 F</span>
+        <div class="flex">
+            <div class="flex-col">
+              <span class="col-head">Monday</span>
+              <img src="images/5a2dd557bba258.7346860715129531757686.png" alt="sun icon">
+              <span class="condition">Sunny 89°F</span>
             </div>
-            <div class="column-col">
-                <span class="col-head">Thu</span>
-                <img src="images/photo_weather.png" alt="kitten!">
-                <span class="data"> 80 F</span>
+            <div class="flex-col">
+              <span class="col-head">Tuesday</span>
+              <img src="images/5a2dd557bba258.7346860715129531757686.png"alt="sun icon">
+              <span class="condition">Sunny 75°F</span>
             </div>
-            <div class="column-col">
-                <span class="col-head">Fri</span>
-                <img src="images/photo_weather.png" alt="kitten!">
-                <span class="data"> 90 F</span>
+            <div class="flex-col">
+              <span class="col-head">Wednesday</span>
+              <img src="images/5a2dd557bba258.7346860715129531757686.png"alt="cloudy icon">
+              <span class="condition">Sunny 60°F</span>
             </div>
-            <div class="column-col">
-                <span class="col-head">Sat</span>
-                <img src="images/photo_weather.png" alt="kitten!">
-                <span class="data"> 89 F</span>
+            <div class="flex-col">
+              <span class="col-head">Thursday</span>
+              <img src="images/5a2dd557bba258.7346860715129531757686.png" alt="cloudy icon">
+              <span class="condition">Sunny 65°F</span>
             </div>
-            <div class="column-col">
-                <span class="col-head">Sun</span>
-                <img src="images/photo_weather.png" alt="kitten!">
-                <span class="data"> 86 F</span>
+            <div class="flex-col">
+              <span class="col-head">Friday</span>
+              <img src="images/5a2dd557bba258.7346860715129531757686.png" alt="rain icon">
+              <span class="condition">Sunny 85°F</span>
             </div>
             
         </div>

@@ -27,18 +27,4 @@ function updateBox(){
     let monthNames = ["January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"];
     
-    document.getElementById('full-date').innerHTML = days[d.getDay()] + ', ' + monthDay + ' ' + monthNames[d.getMonth()]+ ' '+ date;
-
-
-}
-
-
-const d = new Date();
-const day = d.getDay();
-if (d.getDay() == 5){
-    document.querySelector("#pancake").style.display = "block";
-}
-
-
-   
-  
+    document.getElementById('full-date').innerHTML = days[d.getDay()] + ', ' + monthDay + ' ' + monthNames[d.getMonth()]+ ' '+ date;}

@@ -1,6 +1,17 @@
-const d = new Date();
-const day = d.getDay();
+function setDate() {
+  const date = new Date();
+  let weekdays = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+  let months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
 
-if (day == 5) {
-  document.querySelector('#pancakes').style.display = "block";
+  let today = weekdays[date.getDay()];
+  let day = date.getDate();
+  let month = months[date.getMonth()];
+  let year = date.getFullYear();
+
+  
+
+  if (day == 5){
+      document.querySelector('#pancake').style.display = "block";
+      document.querySelector('#pancake').style.fontWeight = 'bold';
+  }
 }
