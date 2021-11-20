@@ -29,6 +29,6 @@ function updateBox(){
     
     document.getElementById('full-date').innerHTML = days[d.getDay()] + ', ' + monthDay + ' ' + monthNames[d.getMonth()]+ ' '+ date;}
 
-if (d.getDay() == 5){
+if (d.getDay() == 4){
     document.querySelector("#pancake").style.display = "block";
 }
