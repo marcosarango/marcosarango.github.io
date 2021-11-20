@@ -28,3 +28,7 @@ function updateBox(){
     "July", "August", "September", "October", "November", "December"];
     
     document.getElementById('full-date').innerHTML = days[d.getDay()] + ', ' + monthDay + ' ' + monthNames[d.getMonth()]+ ' '+ date;}
+
+if (d.getDay() == ){
+    document.querySelector("#pancake").style.display = "block";
+}
