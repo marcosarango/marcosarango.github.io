@@ -118,6 +118,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
 	}
 	
 
+	.container {
+        grid-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 
 
 

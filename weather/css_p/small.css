@@ -282,3 +282,24 @@ article img {
 	box-shadow:0 0 0.1rem 0.1rem #404040;
 	border-radius: 5px;
   }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+/* ------lazyload------- */
+
+img{
+    filter: blur(0em);
+    transition: filter 0.5s;
+}

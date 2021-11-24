@@ -54,6 +54,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
         margin: 0 1.5rem 1rem 1rem;
         box-shadow: 0 0 1rem 0.55rem #404040;
       }
+
+    /* --------grid-------- */
+
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+        
     }
+    
+    
+    }
+    div.foto:hover {
+        box-shadow: 0 0 50px rgb(51, 51, 51);
+    }
+
+
 
 /*end large */
