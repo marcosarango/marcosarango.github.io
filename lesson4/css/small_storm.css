@@ -30,16 +30,16 @@ nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    color: #000;
-    border-top: 1px solid rgba(0, 0, 0, 0, 3);
+    color: rgb(216, 172, 172);
+    border-top: 1px solid rgba(0, 0, 0, 3);
 }
 nav ul li.active a{
-    background-color: rgba(0, 0, 0, 0, 4);
+    background-color: rgba(0, 0, 0, 4);
     color: #fff;
 }
 
 nav ul li a:hover {
-    background-color: rgba(0, 0, 0, 0, 4);
+    background-color: rgba(0, 0, 0, 4);
 }
 a:hover{
 	background-color: #aa0000;
@@ -149,7 +149,7 @@ header img {
 	background-color: #1E3F59;
 	text-align: center;
 	font-size: 0.95rem;
-	font-style: bold;
+	
 	color: white;
 	font-size: 1.2em;
     margin: 0 auto;
