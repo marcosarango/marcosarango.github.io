@@ -22,16 +22,17 @@ fetch('https://byui-cit230.github.io/weather/data/towndata.json')
       yrfounded.textContent = `Year Founded: ${town.yearFounded}`;
       population.textContent = `Population: ${town.currentPopulation}`;
       annualrainfall.textContent = `Annual Rain Fall: ${town.averageRainfall}`;
+      image.textContent = `imagen: ${town.photo}`;
 
       if (town.name === 'Preston') {
         image.setAttribute('src', "/lesson5/images/florian.jpeg");
-        image.setAttribute('alt', "Hot air balloons over a valley with a town in the background.");
+        image.setAttribute('alt', "");
       } else if (town.name === 'Soda Springs') {
         image.setAttribute('src', "/lesson5/images/sajad.jpeg");
-        image.setAttribute('alt', "A store with a soda fountain sign and several soda refrigerators.");
+        image.setAttribute('alt', "");
       } else {
         image.setAttribute('src', "/lesson5/images/zoltan.jpeg");
-        image.setAttribute('alt', "A man flyfishing while wading in a river.");
+        image.setAttribute('alt', "");
       }
 
       div.appendChild(h2);
