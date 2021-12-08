@@ -345,3 +345,12 @@ img{
 .Day-forecast section {
     border: 1px solid var(--secondary-color);
 }
+
+.events {
+	text-align:  center;
+	background-color: yellow;
+	padding: 1em;
+	margin: 1em;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+}

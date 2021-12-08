@@ -172,7 +172,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
 	.events h2 {
 		grid-column: 1/2;
 		
-		align-items: flex-start;
+		
 		margin-top: 50px;
 	}
 	.events li {
