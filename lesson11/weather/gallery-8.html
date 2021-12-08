@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_p/small.css">
+    <link rel="stylesheet" href="css_p/medium.css">
+    <link rel="stylesheet" href="css_p/large.css">
+    <script defer src="/weather/js/date.js"></script>
+    <script defer src="/weather/js/menu.js"></script>
+    
+    <script defer src="/weather/js/gallery.js"></script>
+
+    
+    <title>weatherburg</title>
+</head>
+<body>
+    
+    <div id="pancake">Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</div>
+
+    <header>
+        
+        <picture>
+            <img src="images/photo_weather.png" alt="The world logo">
+        </picture>
+        <section class="headings">
+            <h1>Weatherburg</h1>
+            <q class="m">Always informed</q>
+        </section>
+    </header>
+    
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="/lesson5/index.html">Home</a></li>
+            <li><a href="/lesson10/preston-10.html" >Preston</a></li>
+            <li><a href="/lesson6/soda-springs.html">Soda Springs</a></li>
+            <li><a href="/lesson6/fish-haven.html">Fish Haven</a></li>
+            <li><a href="/lesson4/stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="/weather/gallery-8.html">Gallery</a></li>    
+        </ul>
+    </nav>
+    <main>
+        <h2 class="left-align">Weather Gallery</h2>
+
+        <div class="container">
+            <div class="foto">
+                <img src="images/placeholder.png"  data-src="/weather/images1/arbol.jpg" alt=" tree" style="width:auto;">
+               
+                <p>A tree and the sunset in the background</p>
+            </div>
+            
+            <div class="foto">
+                <img src="images/placeholder.png" data-src="/weather/images1/atardecer.jpg" alt="cars" style="width:auto;">
+                
+                <p>Car camping and sunset background</p>
+            </div>
+
+            <div class="foto"><img src="images/placeholder.png" data-src="/weather/images1/bosque-quemado.jpg" alt="rain tree" style="width:auto;">
+                
+                <p>Dry red pines</p>
+            </div>
+
+            <div class="foto"><img src="images/placeholder.png" data-src="/weather/images1/casa_nevada.jpg" alt="snow " style="width:auto;">
+                
+                <p>Snow covered house</p>
+            </div>
+
+            <div class="foto">
+                    <img src="images/placeholder.png" data-src="/weather/images1/hojas.jpg" alt="" style="width:auto;">
+               
+                <p>Green leaves</p>
+            </div>
+
+            <div class="foto"><img src="images/placeholder.png" data-src="/weather/images1/lago.jpg" alt="" style="width:auto;">
+                
+                <p>A lake and mountains around it</p>
+            </div>
+
+             <div class="foto"><img src="images/placeholder.png" data-src="/weather/images1/llama.jpg" alt="" style="width:auto;">
+            
+                <p>An animal on top of the hill</p>
+            </div>
+
+            <div class="foto"><img src="images/placeholder.png" data-src="/weather/images1/montana.jpg" alt="Snowy mountains" style="width:auto;">
+            
+                <p>Snowy mountains and we can see a person</p>
+             </div>
+
+            <div class="foto"><img src="images/placeholder.png" data-src="/weather/images1/montana_nevada.jpg" alt="" style="width:auto;">
+
+                <p>We see a snowy mountain far away and surrounded by a lot of vegetation</p>
+            </div>
+        </div>
+        
+            
+
+
+                
+            
+            
+       
+        
+    </main>
+    <footer>
+        <section class="footer-top">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d288040.70159752236!2d-111.
+          89638330332957!3d42.09142189358302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78
+          c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sbh!4v1636823379413!5m2!1sen!2sbh" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <div class="contact">
+            <h3>Contact Information</h3>
+            <p>&#128205; Address</p>
+            <p>&#9742; Phone</p>
+            <p>&#9993; Email</p>
+        <div class = "year">
+            <p>&copy;<span id="copyrightyear"></span> | Marco Sarango | Virginia | <a href="https://www.byui.edu/online" target="_blank" style="color: rgb(14, 14, 15);">
+                BYU- Online Learning
+                </a>
+    
+        </div>
+        
+        <div class="last-update">
+            <p>Last Update: <span id="full-date"></span></p> 
+        </div>
+    </footer>
+    
+</body>
+</html>

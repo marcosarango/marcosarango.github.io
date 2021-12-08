@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/* not necessary */
+/* bluegrey matter   #637f80 light  #536872  #708090  #536878  #36454f dark */
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+
+nav button {
+    margin: .2rem 2%;
+    background-color:  transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+nav {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3f4c6b+0,3f4c6b+100;Blue+Grey+Flat */
+background: #3f4c6b; /* Old browsers */
+background: -moz-linear-gradient(top,  #3f4c6b 0%, #3f4c6b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #3f4c6b 0%,#3f4c6b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #3f4c6b 0%,#3f4c6b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
+
+    background-color: #aa0000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: rgb(216, 172, 172);
+    border-top: 1px solid rgba(0, 0, 0, 3);
+}
+nav ul li.active a{
+    background-color: rgba(0, 0, 0, 4);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 4);
+}
+a:hover{
+	background-color: #aa0000;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+nav ul.hide {
+    display: none;
+}
+body{
+	font-size: 20px;
+	font-family: "Sansita", Ubuntu, sans-serif;
+}
+
+/* phone or baseline views **************************/
+header,
+footer {
+	background-color: rgb(187, 218, 238);
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+    border-radius: 10px;
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 900px;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 1.1rem;
+}
+h2 {
+	color: #050505;
+}
+
+
+
+
+
+
+footer {
+	border-radius: 15px;
+}
+
+header img {
+    
+    width: 200px;
+    height: auto ;
+}
+header h2 h3 {
+    margin: auto;
+}
+
+
+
+
+
+
+header {
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: rgb(8, 8, 8);
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
+
+/*----*/
+#pancake {
+	display: none;
+	margin: 0;
+	padding: 0.25rem 0;
+	background-color: #1E3F59;
+	text-align: center;
+	font-size: 0.95rem;
+	
+	color: white;
+	font-size: 1.2em;
+    margin: 0 auto;
+	text-align: center;
+    padding: 3px;
+	background-color: rgb(30, 41, 185);
+}
+
+/* ----------cards-------- */
+
+div.sections {
+    margin: 0 auto;
+}
+  
+  div.sections section {
+    display: block;
+    width: 100%;
+    background-color: #bfdeeb;
+    text-align: center;
+    /*padding-top: 0.5rem;*/
+    height: auto;
+    margin-bottom: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  div.sections section img {
+    width: 100%;
+  }
+  
+  .homemain {
+    padding: 0;
+  }
+  
+  .action {
+    background-color: #b0e7f5;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  .action h2,
+  .action p {
+    margin: 0;
+    padding: 0.25rem;
+  }
+
+  div.sections {
+    margin: 0 auto;
+  }
+  
+  div.sections section {
+    display: block;
+    width: 100%;
+    background-color: #9babf7;
+    text-align: center;
+    /*padding-top: 0.5rem;*/
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  div.sections section img {
+    width: 100%;
+  }
+  
+  .homemain {
+    padding: 0;
+  }
+  
+  .action {
+    background-color: #F5AD42;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  .action h2,
+  .action p {
+    margin: 0;
+    padding: 0.25rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  
+
+
+
+
+
+/* ----------form--------- */
+
+form {
+    font-family: var(--paragraph-font);
+}
+
+form fieldset {
+    margin: 5rem 0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+form legend{
+    color: rgba(15, 12, 11, 0.945);
+    margin: 0 1.5rem;
+    padding: 0 .6rem;
+}
+form label.top {
+    display: block;
+    padding: 1rem;
+    color: rgb(10, 10, 10);
+    font-size: 1rem;
+}
+span {
+    color: black;
+    font-size: 1.5rem;
+}
+
+form label.top input, form label.top select {
+    -webkid-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px var(--primary-color);
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(250, 250, 250, 0.973);
+}
+form label.sbs {
+    display: block;
+    padding:.75rem;
+    color: black;
+}
+form label.top input:required {
+    border-left: red solid 10px;
+}
+form label.top input:required:valid {
+    border-left: green solid 10px;
+}
+form input{
+    padding: .6rem;
+}
+form select {
+    padding: .70rem;
+}
+form input.submitbutton {
+    border: none;
+    background-color: rgb(22, 32, 121);
+    color: rgb(233, 225, 225);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0 0 2rem 2%;
+    width: 50%;
+    max-width: 100rem;
+}
+
+
+
+p {
+    font-family: var(--paragraph-font);
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+}
+
+
+
+
+
