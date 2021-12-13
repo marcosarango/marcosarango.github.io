@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/project/css/medium.css">
     <link rel="stylesheet" href="/project/css/large.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <script defer src="/project/js/infoRent.js"></script>
     <script defer src="/weather/js/date.js"></script>
     <script defer src="/weather/js/menu.js"></script>
     <script defer src="/project/js/windchill2.js"></script>
@@ -36,141 +37,121 @@
     <nav class="clearfix">
         <button onclick="toggleMenu()">Menu</button>
         <ul id="primaryNav" class="hide">
-            <li><a href="/lesson5/index.html">Home</a></li>
-            <li class="active"><a href="/lesson10/preston.html">Preston</a></li>
-            <li><a href="/lesson6/soda-springs.html">Soda Springs</a></li>
-            <li><a href="/lesson6/fish-haven.html">Fish Haven</a></li>
-            <li><a href="/lesson4/stormcenter.html">Storm Center</a></li>
+            <li><a href="/project/home.html">Home</a></li>
+            <li class="active"><a href="/lesson10/preston.html">rentals</a></li>
+            <li><a href="/lesson6/soda-springs.html">REservations</a></li>
+            <li><a href="/lesson6/fish-haven.html">Tours</a></li>
+            <li><a href="/lesson4/stormcenter.html">Contact</a></li>
             <li><a href="/weather/gallery.html">Gallery</a></li>    
         </ul>
     </nav>
     <main>
-        <div class="rent">
-            <h2>Rent now!</h2>
+        <div>
+            <table class='tablaRental'>
+                <thead>
+                    <tr>
+                        <th colspan="6">
+                            Max Persons and Price Chart
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th colspan="2"></th>
+                        <th colspan="2">Reservations</th>
+                        <th colspan="2">Walk Ins</th>
+                    </tr>
+                    <tr>
+                        <th>Rental Type</th>
+                        <th>Max. Persons</th>
+                        <th>Half Day (3 hrs)</th>
+                        <th>Full Day</th>
+                        <th>Half Day (3 hrs)</th>
+                        <th>Full Day</th>
+                    </tr>
+                    <tr>
+                        <td><img src="images/2022-metropolitan-pearl_soft_beige-650x380.webp" alt="scoot" width=100><br><span id="name-metro"></span>
+                        </td>
+                        <td><span id="max-pers-metro"></span></td>
+                        <td><span id="reservation-metro-half"></span></td>
+                        <td><span id="reservation-metro-full"></span></td>
+                        <td><span id="ins-metro-half"></span></td>
+                        <td><span id="ins-metro-full"></span></td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/hondaDio.jpg" alt="scoot" width=100><br><span id="name-dio"></span></td>
+                        <td><span id="max-person-dio"></span></td>
+                        <td><span id="reservation-dio-half"></span></td>
+                        <td><span id="reservation-dio-full"></span></td>
+                        <td><span id="ins-dio-half"></span></td>
+                        <td><span id="ins-dio-full"></span></td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/HondaPCX150.jpg" alt="scoot" width=100><br><span id="name-pcx"></span></td>
+                        <td><span id="max-person-pcx"></span></td>
+                        <td><span id="reservation-pcx-half"></span></td>
+                        <td><span id="reservation-pcx-full"></span></td>
+                        <td><span id="ins-pcx-half"></span></td>
+                        <td><span id="ins-pcx-full"></span></td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/hondaPionner.webp" alt=" vehicle" width=100><br><span id="name-pioneer"></span></td>
+                        <td><span id="max-person-pionner"></span></td>
+                        <td><span id="reservation-pionner-half"></span></td>
+                        <td><span id="reservation-pionner-full"></span></td>
+                        <td><span id="ins-pionner-half"></span></td>
+                        <td><span id="ins-pionner-full"></span></td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/jeep.jpg" alt="jeep" width=100><br><span id="name-jeep-wrangler"></span></td>
+                        <td><span id="max-person-jeep-wrangler"></span></td>
+                        <td><span id="reservation-jeepWragler-half"></span></td>
+                        <td><span id="reservation-jeepWrangler-full"></span></td>
+                        <td><span id="ins-jeepWrangler-half"></span></td>
+                        <td><span id="ins-jeepWrangler-full"></span></td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/jeepWeangler.jpg" alt="jeep" width=100><br><span id="name-jeep2"></span></td>
+                        <td><span id="max-person-jeep2"></span></td>
+                        <td><span id="reservation-jeep2-half"></span></td>
+                        <td><span id="reservation-jeep2-full"></span></td>
+                        <td><span id="ins-jeep2-half"></span></td>
+                        <td><span id="ins-jeep2-full"></span></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="6">
+                            <a href="" class="center">Reserve Yours Now!</a>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
         </div>
-        <div class="information">
-            <h2>If you want more information:</h2>
-            <p>&#128205; Address: Sasn Miguel de Cozumel </p>
-            <p>&#9742; Phone: +52 845 352 123</p>
-            <p>&#9993; Email:  scootscozumel@gmail.com</p>
+        
+
+        <div class="contact">
+            <h2>Follow us on our social networks</h2>
+                <div class="social">
+                    <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/instagram.png" alt="instagram"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" alt="youtube"></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter.png" alt="twitter"></a>
+                    
+                </div>
         </div>
-        
-        
-        <h2 class="type">Type of rentals</h2>
-        
-        <div id="contenedor-type-rent">
-            <div id="photo1">
-                <img src="images/2022-metropolitan-pearl_soft_beige-650x380.webp" alt="scooter">
-                <p>You will not regret this choice</p>
-
-            </div>
-            <div id="photo2">
-                <img src="images/hondaDio.jpg" alt="scooter or jeep">
-                <p>If you choose honda dio you will experience great emotions</p>
-            </div>
-            <div id="photo3">
-                <img src="images/HondaPCX150.jpg" alt="scooter">
-                <p>If you like speed, this is a good choice</p>
-            </div>
-            <div id="photo4">
-                <img src="images/hondaPionner.webp" alt="jeep">
-                <p>Honda pioneer is for adventurers, are you one of them? Cheer up!</p>
-            </div>
-            <div id="photo5">
-                <img src="images/jeep.jpg" alt="jeep">
-                <p>Jeep with 4 doors. Great for the whole family</p>
-            </div>
-            <div id="photo6">
-                <img src="images/jeepWeangler.jpg" alt="jeep">
-                <p>Two-door jeep. Incredible for your partner or friends</p>
-            </div>
-            
-        </div>
-        <div class="herocontainer">
-            <picture class="heroimg">
-                <source media="(max-width: 510px)" srcset="images/cozumel.jpg">
-                <source media="(max-width: 939px)" srcset= "images/cozumel.jpg">
-                <source media="(min-width: 940px)" srcset="images/cozumel.jpg">
-                <img src="images/cozumel.jpg" alt="one photo">
-                
-            </picture>
-            <div class="events">
-                <h2>Events:</h2>
-            </div>
-
-            
-
-            <section class="weather">
-                <h3>Weather Summary</h3>
-                <p class="left">Currently:</p> 
-                <p class="right">
-                    <span class="weather-desc"  id="current-cond" >Fall &#176;</span>
-                </p>
-                <p class="left">Current temp:</p> 
-                <p class="right">
-                    <span class="temp"  id="temp-max" > &#176;F</span></p>
-                
-                <p class="left">Wind Chill:</p> 
-                <p class="right">
-                    <span class="colweight" id="chill">N/A</span></p>
-
-                <p class="left">Humidity:</p>
-                <p class="right">
-                    <span class="humidity"  id="humid" > &#176;F</span> 
-                </p>
-
-                <p class="left">Wind Speed:</p> 
-                <p class="right">
-                    <span class="wind-speed"  id="wind-speed"> mph</span>
-                </p>
-
-                
-
-
-
-                
-
-
-                
-            </section>
-            
-        </div>
-
-        <br>
-        <section class="Day-forecast">
-            <h3>Weather this week in cozumel</h3>
-            <div id="Grid-forecast"></div>
-        </section>
-        <br>
-
-
-
-        
-        
-       
-        <h3 class="tdf">Enjoy your vacation!</h3>
-
-        
-        <article>
-            <img src="images/Familia.jpg" alt="">
-            <p>With our services you will be able to enjoy all the experiences that you have always wanted to do with your family</p>
-        </article>
-            
-
-        
-
-        
+    
+  
         
     </main>
     <footer>
         <section class="footer-top">
-            <iframe class="map" src="/lesson10/images/mappreston.jpg" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          <div class="contact">
-            <h3>Contact Information</h3>
-            <p>&#128205; Address</p>
-            <p>&#9742; Phone</p>
-            <p>&#9993; Email</p>
-          </div>
+
+            <div>
+                <h3>We have a map of cozumel!</h3>
+
+                <br><a id="map1" href="https://www.google.com/maps/search/cozumel">Cozumel map here</a>
+            </div>
           <div class = "year">
             <p>&copy;<span id="copyrightyear"></span> | Marco Sarango | Virginia | <a href="https://www.byui.edu/online" target="_blank" style="color: rgb(14, 14, 15);">
                 BYU- Online Learning
