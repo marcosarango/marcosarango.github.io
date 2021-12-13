@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/project/css/small.css">
+    <link rel="stylesheet" href="/project/css/medium.css">
+    <link rel="stylesheet" href="/project/css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <script defer src="/weather/js/date.js"></script>
+    <script defer src="/weather/js/menu.js"></script>
+    <script defer src="/project/js/windchill2.js"></script>
+    <script defer src="/project/js/weatherApi.js"></script>
+    <script defer src="/lesson10/js/eventPreston.js"></script>
+    
+
+    
+    <title>ScootsCozumel</title>
+</head>
+<body>
+    
+    <div id="pancake">We have a draw for you today!!</div>
+
+    <header>
+        
+        <picture>
+            <img src="images/logo1.png" alt="logo">
+        </picture>
+        <section class="headings">
+            <h1>Scoots Cozumel</h1>
+            <q class="m">We care that you enjoy!</q>
+        </section>
+    </header>
+    
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="/project/home.html">Home</a></li>
+            <li class="active"><a href="/lesson10/preston.html">rentals</a></li>
+            <li><a href="/lesson6/soda-springs.html">REservations</a></li>
+            <li><a href="/lesson6/fish-haven.html">Tours</a></li>
+            <li><a href="/lesson4/stormcenter.html">Contact</a></li>
+            <li><a href="/weather/gallery.html">Gallery</a></li>    
+        </ul>
+    </nav>
+    <main>
+        <div class="rent"><a href="rentals.html" class="button">Rent now!</a></div>
+        
+        <div class="information">
+            <h2>If you want more information:</h2>
+            <p>&#128205; Address: San Miguel de Cozumel </p>
+            <p>&#9742; Phone: +52 845 352 123</p>
+            <p>&#9993; Email:  scootscozumel@gmail.com</p>
+        </div>
+        
+        
+        <h2 class="type">Type of rentals</h2>
+        
+        <div id="contenedor-type-rent">
+            <div id="photo1">
+                <img src="images/2022-metropolitan-pearl_soft_beige-650x380.webp" alt="scooter">
+                <p>You will not regret this choice</p>
+
+            </div>
+            <div id="photo2">
+                <img src="images/hondaDio.jpg" alt="scooter or jeep">
+                <p>If you choose honda dio you will experience great emotions</p>
+            </div>
+            <div id="photo3">
+                <img src="images/HondaPCX150.jpg" alt="scooter">
+                <p>If you like speed, this is a good choice</p>
+            </div>
+            <div id="photo4">
+                <img src="images/hondaPionner.webp" alt="jeep">
+                <p>Honda pioneer is for adventurers, are you one of them? Cheer up!</p>
+            </div>
+            <div id="photo5">
+                <img src="images/jeep.jpg" alt="jeep">
+                <p>Jeep with 4 doors. Great for the whole family</p>
+            </div>
+            <div id="photo6">
+                <img src="images/jeepWeangler.jpg" alt="jeep">
+                <p>Two-door jeep. Incredible for your partner or friends</p>
+            </div>
+            
+        </div>
+        <div class="herocontainer">
+            <picture class="heroimg">
+                <source media="(max-width: 510px)" srcset="images/cozumel.jpg">
+                <source media="(max-width: 939px)" srcset= "images/cozumel.jpg">
+                <source media="(min-width: 940px)" srcset="images/cozumel.jpg">
+                <img src="images/cozumel.jpg" alt="one photo">
+                
+            </picture>
+            
+
+            
+
+            <section class="weather">
+                <h3>Weather Summary</h3>
+                <p class="left">Currently:</p> 
+                <p class="right">
+                    <span class="weather-desc"  id="current-cond" >Fall &#176;</span>
+                </p>
+                <p class="left">Current temp:</p> 
+                <p class="right">
+                    <span class="temp"  id="temp-max" > &#176;F</span></p>
+                
+                <p class="left">Wind Chill:</p> 
+                <p class="right">
+                    <span class="colweight" id="chill">N/A</span></p>
+
+                <p class="left">Humidity:</p>
+                <p class="right">
+                    <span class="humidity"  id="humid" > &#176;F</span> 
+                </p>
+
+                <p class="left">Wind Speed:</p> 
+                <p class="right">
+                    <span class="wind-speed"  id="wind-speed"> mph</span>
+                </p>
+
+                
+
+
+
+                
+
+
+                
+            </section>
+            
+        </div>
+
+        <br>
+        <section class="Day-forecast">
+            <h3>Weather this week in cozumel</h3>
+            <div id="Grid-forecast"></div>
+        </section>
+        <br>
+
+
+
+        
+        
+       
+        <h3 class="tdf">Enjoy your vacation!</h3>
+
+        
+        <article>
+            
+            <img src="images/Familia.jpg" alt="">
+            <p>With our services you will be able to enjoy all the experiences that you have always wanted to do with your family</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fuga dignissimos porro distinctio? Porro, vero ratione similique atque deserunt aliquid labore numquam accusantium iste exercitationem amet? Illo asperiores ut reprehenderit.</p>
+
+            <img src="images/familia1.jpg" alt="">
+            <p>With our services you will be able to enjoy all the experiences that you have always wanted to do with your family</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fuga dignissimos porro distinctio? Porro, vero ratione similique atque deserunt aliquid labore numquam accusantium iste exercitationem amet? Illo asperiores ut reprehenderit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fuga dignissimos porro distinctio? Porro, vero ratione similique atque deserunt aliquid labore numquam accusantium iste exercitationem amet? Illo asperiores ut reprehenderit.</p>
+        </article>
+
+        <div class="contact">
+            <h2>Follow us on our social networks</h2>
+                <div class="social">
+                    <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/instagram.png" alt="instagram"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" alt="youtube"></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter.png" alt="twitter"></a>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+        
+
+        
+        
+    </main>
+    <footer>
+        <section class="footer-top">
+
+            <div>
+                <h3>We have a map of cozumel!</h3>
+
+                <br><a id="map1" href="https://www.google.com/maps/search/cozumel">Cozumel map here</a>
+            </div>
+        
+          <div class = "year">
+            <p>&copy;<span id="copyrightyear"></span> | Marco Sarango | Virginia | <a href="https://www.byui.edu/online" target="_blank" style="color: rgb(14, 14, 15);">
+                BYU- Online Learning
+                </a>
+    
+          </div>
+        
+          <div class="last-update">
+            <p>Last Update: <span id="full-date"></span></p> 
+          </div>
+        </section>
+    </footer>
+    
+</body>
+</html>
