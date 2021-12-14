@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/project/css/small.css">
+    <link rel="stylesheet" href="/project/css/medium.css">
+    <link rel="stylesheet" href="/project/css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <script defer src="/weather/js/date.js"></script>
+    <script defer src="/weather/js/menu.js"></script>
+    <script defer src="/project/js/windchill2.js"></script>
+    <script defer src="/project/js/weatherApi.js"></script>
+    <script defer src="/lesson10/js/eventPreston.js"></script>
+    <script defer src="/project/js/gallery.js"></script>
+    
+
+    
+    <title>ScootsCozumel</title>
+</head>
+<body>
+    
+    <div id="pancake">We have a draw for you today!!</div>
+
+    <header>
+        
+        <picture>
+            <img src="images/logo1.png" alt="logo">
+        </picture>
+        <section class="headings">
+            <h1>Scoots Tours</h1>
+            <q class="m">We care that you enjoy!</q>
+        </section>
+    </header>
+    
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="/project/home.html">Home</a></li>
+            <li><a href="/project/rent.html">rentals</a></li>
+            <li><a href="/project/reservation.html">Reservations</a></li>
+            <li class="active"><a href="/project/tour.html">Tours</a></li>
+            <li><a href="/project/contact.html">Contact</a></li>
+             
+        </ul>
+    </nav>
+    <main>
+        
+        
+        <div class="information">
+            <h2>If you want more information:</h2>
+            <p>&#128205; Address: San Miguel de Cozumel </p>
+            <p>&#9742; Phone: +52 845 352 123</p>
+            <p>&#9993; Email:  scootscozumel@gmail.com</p>
+        </div>
+
+        <div class="container">
+            <div class="foto">
+                <img src="images/placeholder.png"  data-src="/project/images/cozumel1.jpg" alt=" tree" style="width:auto;">
+               
+                <p>Wonderful waves on the beach of Cozumel</p>
+            </div>
+            
+            <div class="foto">
+                <img src="images/placeholder.png" data-src="/project/images/cozumel2.jpg" alt="beach" style="width:auto;">
+                
+                <p>Cozumel has a beach and jungle at the same time</p>
+            </div>
+
+            <div class="foto"><img src="images/placeholder.png" data-src="/project/images/cozumel3.jpg" alt="beach" style="width:auto;">
+                
+                <p>Enjoy the great landscapes</p>
+            </div>
+
+            <div class="foto"><img src="images/placeholder.png" data-src="/project/images/cozumel4.jpg" alt="beach" style="width:auto;">
+                
+                <p>Palm trees like in paradise</p>
+            </div>
+
+            <div class="foto">
+                    <img src="images/placeholder.png" data-src="/project/images/cozumel5.jpg" alt="beach" style="width:auto;">
+               
+                <p>Find crystal clear waters</p>
+            </div>
+
+            <div class="foto"><img src="images/placeholder.png" data-src="/project/images/cozumel6.jpg" alt="" style="width:auto;">
+                
+                <p>Relax from the beautiful landscapes</p>
+            </div>
+
+             <div class="foto"><img src="images/placeholder.png" data-src="/project/images/cozumel7.jpg" alt="" style="width:auto;">
+            
+                <p>These beautiful beaches await you</p>
+            </div>
+
+            <div class="foto"><img src="images/placeholder.png" data-src="/project/images/cozumel8.jpg" alt="beach" style="width:auto;">
+            
+                <p>The most romantic place you will know</p>
+             </div>
+
+            <div class="foto"><img src="images/placeholder.png" data-src="/project/images/cozumel9.jpg" alt="" style="width:auto;">
+
+                <p>Disappear from the routine and de-stressn</p>
+            </div>
+        </div>
+        
+        
+        
+        
+
+        <div class="contact">
+            <h2>Follow us on our social networks</h2>
+                <div class="social">
+                    <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/instagram.png" alt="instagram"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" alt="youtube"></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter.png" alt="twitter"></a>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+        
+
+        
+        
+    </main>
+    <footer>
+        <section class="footer-top">
+
+            <div>
+                <h3>We have a map of cozumel!</h3>
+
+                <br><a id="map1" href="https://www.google.com/maps/search/cozumel">Cozumel map here</a>
+            </div>
+        
+          <div class = "year">
+            <p>&copy;<span id="copyrightyear"></span> | Marco Sarango | Virginia | <a href="https://www.byui.edu/online" target="_blank" style="color: rgb(14, 14, 15);">
+                BYU- Online Learning
+                </a>
+    
+          </div>
+        
+          <div class="last-update">
+            <p>Last Update: <span id="full-date"></span></p> 
+          </div>
+        </section>
+    </footer>
+
+</html>

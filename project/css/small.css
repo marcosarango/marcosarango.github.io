@@ -278,14 +278,15 @@ article p {
 	padding: 0.75rem 0;
 }
 article img {
-	width: 100%;
+	width: 50%;
 	height: auto;
 	margin: 0;
 	box-shadow:0 0 0.1rem 0.1rem #404040;
 	border-radius: 5px;
+	
   }
 
-  .container {
+.container {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
@@ -294,7 +295,9 @@ article img {
     padding: 2rem 2rem;
     margin: 0 auto;
     text-align: center;
+	
 }
+
 
 
 
@@ -304,6 +307,7 @@ article img {
 img{
     filter: blur(0em);
     transition: filter 0.5s;
+	max-width: 80%;
 }
 
 
@@ -428,3 +432,170 @@ td {
     font-size: 20px;
     line-height: 1.25;
 }
+
+/**********infor*/
+#form{
+    background-color: rgb(234, 240, 179);
+    /*background: linear-gradient(darkturquoise, turquoise, rgb(40, 236, 236),
+    rgb(168, 241, 229), white);*/
+    margin-bottom: -20px;
+}
+
+#form h2{
+    padding-top: 50px;
+    margin-top: -30px;
+}
+
+#form h4{
+    text-align: center;
+    padding: 0 10px;
+    font-family: Poppins, Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.formMain {
+    max-width: 465px;
+    margin: auto;
+}
+
+form {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form fieldset {
+    margin: 1rem 0 3rem 0;
+    border: 1px solid #c95f03;
+    padding: .5rem 2%;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+form legend {
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    max-width: 93%;
+}
+
+form label.top input,
+form label.top select,
+form label.top select.option {
+    -webkit-appearance: none;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 97%;
+    max-width: 97%;
+    background-color: white;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: rgb(9, 0, 87);
+    max-width: 100%;
+}
+
+.space {
+    margin-top: -15px;
+    padding: .5rem;
+    width: 94%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+form label.top input:required {
+    border-left: #c20000 solid 10px;
+}
+
+form label.top input:required:valid {
+    border-left: rgb(44, 44, 44) solid 10px;
+}
+
+
+
+form input.submitBtn, #contactBtn {
+    font-family: Fontdiner Swanky;
+    font-size: 22px;
+    border: 1px solid black;
+    background-color: #54fa22;
+    border-radius: 5px;
+    padding: .75rem 1.5rem;
+    margin: -25px auto 25px 10px;
+    width: 95%;
+    text-align: center;
+}
+.thanks{
+	margin: 1em;
+	padding: 1em;
+}
+
+/*-------------Tours-------------*/
+
+#tours-body {
+    background-color: rgb(250, 239, 224);
+}
+
+#article {
+    background-color: navajowhite;
+    border: rgb(255, 187, 0) dotted 5px;
+    padding: 10px 30px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: -25px;
+    text-align: justify;
+}
+
+#article img{
+    max-width: 100%;
+    margin: 30px auto -30px auto;
+    border-radius: 8px;
+    border: black solid .5px;
+
+}
+
+#article h2 {
+    margin-bottom: -10px;
+}
+
+#article a:hover {
+    color: #fa8722;
+    transition: 1s;
+}
+
+#tours-grid-box h3 {
+    margin-bottom: 2px;
+    font-family: poppins;
+}
+
+#tours-grid-box img, figure {
+    display: block;
+    margin: auto auto 50px auto;
+    border-radius: 8px;
+}
+
+#tours-grid-box img{
+    border: solid 1px;
+}
+
+#tours-grid-box {
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+#article a {
+    color: rgb(1, 184, 187);
+    text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px;
+}
+
+#tours-main{
+    margin-bottom: -50px;
+}
+
